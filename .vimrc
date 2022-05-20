@@ -20,6 +20,7 @@ Plugin 'tpope/vim-sleuth'							" https://github.com/tpope/vim-sleuth
 
 " Plugin settings {{{2
 let g:airline_theme='deus'							" Airline theme
+let g:airline_powerline_fonts = 1						" Enable powerline fonts
 
 " Post-config {{{2
 call vundle#end()
