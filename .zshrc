@@ -8,6 +8,7 @@ PATH="/opt/homebrew/opt/findutils/libexec/gnubin:$PATH" # Use GNU findutils
 PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH" # Use GNU sed
 PATH="/opt/homebrew/opt/gnu-tar/libexec/gnubin:$PATH" # Use GNU tar
 PATH="/opt/homebrew/opt/gnu-indent/libexec/gnubin:$PATH" # Use GNU indent
+PATH="/opt/homebrew/opt/grep/libexec/gnubin:$PATH" # Use GNU grep
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -107,3 +108,4 @@ alias pbc='pbcopy'
 alias pbp='pbpaste'
 alias nano='/opt/homebrew/Cellar/nano/6.3/bin/nano'
 alias less='less -N'
+alias ls='ls --color=auto'
